@@ -1,0 +1,7 @@
+logs
+wandb
+*.pyc
+__pycache__
+*.json
+rough.ipynb
+trainer_output
