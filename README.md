@@ -24,9 +24,10 @@ ntp-seed-conditioning/
 │   ├── sibling.sh           \# Launches sibling discovery experiment  
 │   └── circle.sh            \# Launches circle construction experiment  
 ├── data/                    \# Synthetic graph & sequence generation  
-├── models/                  \# GPT-2 training and evaluation code  
-├── eval.py                    \# Creativity metrics and reporting utilities  
-├── utils.py                 \# Helper modules  
+├── models/                  \# Custom model architcture
+├── train.py                 \# Training and live evaluation code
+├── eval.py                  \# Inference and evaluation code
+├── utils.py                 \# Helper functions  
 ├── notebooks/               \# Exploratory analysis  
 └── README.md
 ```
